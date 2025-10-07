@@ -10,7 +10,7 @@ Learn basic Bash scripting to automate simple Linux tasks: variables, input, loo
 ## Files created
 - `first_script.sh` — interactive greeting (read + echo)
 - `loop_script.sh` — `for` loop example
-- `conditional_script.sh` — basic if/else flow
+- `conditional_script.sh` — basic `if/else` flow
 - `bank_access.sh` — combined loop + conditional authentication prototype
 
 ## Lessons learned
