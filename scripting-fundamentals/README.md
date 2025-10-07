@@ -19,8 +19,8 @@ chmod +x first_script.sh
 ./first_script.sh
 find / -name "flag.txt" 2>/dev/null  
 ```
-## Lessons learned
 
+## Lessons learned
 - Importance of shebang and execution permission (chmod +x).
 - Using read for input and if/else + for loops for control flow.
 - Useful combination: find + grep for fast searches.
