@@ -20,9 +20,9 @@ Learn basic Bash scripting to automate simple Linux tasks: variables, input, loo
 
 ## Key commands
 ```bash
+#!/bin/bash
 chmod +x first_script.sh
 ./first_script.sh
-find / -name "flag.txt" 2>/dev/null  
 ```
 
 
