@@ -1,7 +1,7 @@
 # Linux Fundamentals — Bash scripting (basic)
 
 **Platform:** TryHackMe / local notes  
-**Date:** 2025-08-XX  
+**Date:** 2025-10-07
 **Duration:** ~1–2 hours
 
 ## Objective
@@ -13,6 +13,11 @@ Learn basic Bash scripting to automate simple Linux tasks: variables, input, loo
 - `conditional_script.sh` — basic if/else flow
 - `bank_access.sh` — combined loop + conditional authentication prototype
 
+## Lessons learned
+- Importance of shebang and execution permission (chmod +x).
+- Using read for input and if/else + for loops for control flow.
+- Useful combination: find + grep for fast searches.
+
 ## Key commands
 ```bash
 chmod +x first_script.sh
@@ -20,7 +25,4 @@ chmod +x first_script.sh
 find / -name "flag.txt" 2>/dev/null  
 ```
 
-## Lessons learned
-- Importance of shebang and execution permission (chmod +x).
-- Using read for input and if/else + for loops for control flow.
-- Useful combination: find + grep for fast searches.
+
