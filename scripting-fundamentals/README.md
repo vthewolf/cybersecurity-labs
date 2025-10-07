@@ -13,7 +13,7 @@ Learn basic Bash scripting to automate simple Linux tasks: variables, input, loo
 - `conditional_script.sh` — basic if/else flow
 - `bank_access.sh` — combined loop + conditional authentication prototype
 
-## Files created
+## Lessons learned
 - Importance of shebang and execution permission (chmod +x).
 - Using read for input and if/else + for loops for control flow.
 - Useful combination: find + grep for fast searches.
