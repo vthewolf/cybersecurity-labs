@@ -17,4 +17,10 @@ Learn basic Bash scripting to automate simple Linux tasks: variables, input, loo
 ```bash
 chmod +x first_script.sh
 ./first_script.sh
-find / -name "flag.txt" 2>/dev/null
+find / -name "flag.txt" 2>/dev/null  
+```
+## Lessons learned
+
+- Importance of shebang and execution permission (chmod +x).
+- Using read for input and if/else + for loops for control flow.
+- Useful combination: find + grep for fast searches.
