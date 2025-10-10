@@ -15,7 +15,7 @@ Understand Wireshark’s interface, dissect packets, apply filters, and navigate
 
 ## TOOL OVERVIEW
 
-Use Cases
+### Use Cases
 
 Wireshark is one of the most potent traffic analyser tools available in the wild. There are multiple purposes for its use:
 
@@ -24,22 +24,19 @@ Detecting security anomalies, such as rogue hosts, abnormal port usage, and susp
 Investigating and learning protocol details, such as response codes and payload data. 
 Note: Wireshark is not an Intrusion Detection System (IDS). It only allows analysts to discover and investigate the packets in depth. It also doesn't modify packets; it reads them. Hence, detecting any anomaly or network problem highly relies on the analyst's knowledge and investigation skills.
 
-GUI and Data
+### GUI and Data
 
 Wireshark GUI opens with a single all-in-one page, which helps users investigate the traffic in multiple ways. At first glance, five sections stand out.
 
-Toolbar	The main toolbar contains multiple menus and shortcuts for packet sniffing and processing, including filtering, sorting, summarising, exporting and merging. 
-Display Filter Bar	The main query and filtering section.
-Recent Files	List of the recently investigated files. You can recall listed files with a double-click. 
-Capture Filter and Interfaces	Capture filters and available sniffing points (network interfaces).  The network interface is the connection point between a computer and a network. The software connection (e.g., lo, eth0 and ens33) enables networking hardware.
-Status Bar	Tool status, profile and numeric packet information.
+| Sections | Description |
+|-------------|----------------|
+| Toolbar |	The main toolbar contains multiple menus and shortcuts for packet sniffing and processing, including filtering, sorting, summarising, exporting and merging. |
+| Display Filter Bar | The main query and filtering section. |
+| Recent Files | List of the recently investigated files. You can recall listed files with a double-click. |
+| Capture Filter and Interfaces	| Capture filters and available sniffing points (network interfaces).  The network interface is the connection point between a computer and a network. The software connection (e.g., lo, eth0 and ens33) enables networking hardware. |
+| Status Bar |	Tool status, profile and numeric packet information. |
 
-The below picture shows Wireshark's main window. The sections explained in the table are highlighted. Now open the Wireshark and go through the walkthrough.
-
-Wireshark - GUI
-
-
-Loading PCAP Files
+### Loading PCAP Files
 
 The above picture shows Wireshark's empty interface. The only available information is the recently processed  "http1.cap" file. Let's load that file and see Wireshark's detailed packet presentation. Note that you can also use the "File" menu, dragging and dropping the file, or double-clicking on the file to load a pcap.
 
