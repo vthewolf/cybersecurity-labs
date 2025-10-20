@@ -14,7 +14,7 @@ python3 hash-id.py
 D7F4D3CCEE7ACD3DD7FAD3AC2BE2AAE9C44F4E9B7FB802D73136D4C53920140A
 ```
 
-![Image 1](([screenshots/imagen1.png]https://github.com/vthewolf/cybersecurity-labs/blob/main/john-the-ripper/1.Cracking-basic-hashes/image1.png))
+![Image 1]([screenshots/imagen1.png]https://github.com/vthewolf/cybersecurity-labs/blob/main/john-the-ripper/1.Cracking-basic-hashes/image1.png)
 
 
 We get that the hash type can be **SHA-256** or **Haval-256**.
