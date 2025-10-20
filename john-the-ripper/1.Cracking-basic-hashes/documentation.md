@@ -25,13 +25,13 @@ We get that the hash type can be **SHA-256** or **Haval-256**.
 john --list=formats
 ```
 
-![Image 2]([screenshots/imagen1.png](https://github.com/vthewolf/cybersecurity-labs/blob/main/john-the-ripper/1.Cracking-basic-hashes/captures/image2.png))
+![Image 2](./image2.png)
 
 ```bash
 john --format=Raw-SHA256 --wordlist=/usr/share/wordlists/rockyou.txt hash3.txt
 ```
 
-![Image 3]([screenshots/imagen1.png](https://github.com/vthewolf/cybersecurity-labs/blob/main/john-the-ripper/1.Cracking-basic-hashes/captures/image3.png))
+![Image 3](./image3.png)
 
 4. Read the output that John the Ripper gives us to obtain the password
 
@@ -39,7 +39,7 @@ john --format=Raw-SHA256 --wordlist=/usr/share/wordlists/rockyou.txt hash3.txt
 cat /home/user/src/john/run/john.pot
 ```
 
-![Image 4]([screenshots/imagen1.png](https://github.com/vthewolf/cybersecurity-labs/blob/main/john-the-ripper/1.Cracking-basic-hashes/captures/image4.png))
+![Image 4](./image4.png)
 
 **FLAG:** `microphone` (you can see the previous two as well because they are saved in a list with everything John cracks)
 
