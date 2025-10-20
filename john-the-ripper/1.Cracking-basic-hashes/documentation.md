@@ -7,7 +7,7 @@ cat hash3.txt
 D7F4D3CCEE7ACD3DD7FAD3AC2BE2AAE9C44F4E9B7FB802D73136D4C53920140A
 ```
 
-2. With [hash-id.py](http://hash-id.py) we determine the hash type
+2. With [hash-id.py](gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master) we determine the hash type
 
 ```bash
 python3 hash-id.py
