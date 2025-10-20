@@ -14,7 +14,8 @@ python3 hash-id.py
 D7F4D3CCEE7ACD3DD7FAD3AC2BE2AAE9C44F4E9B7FB802D73136D4C53920140A
 ```
 
-*(screenshot1)*
+![Image 1]([screenshots/imagen1.png](https://github.com/vthewolf/cybersecurity-labs/blob/main/john-the-ripper/1.Cracking-basic-hashes/captures/image1.png))
+
 
 We get that the hash type can be **SHA-256** or **Haval-256**.
 
@@ -24,13 +25,13 @@ We get that the hash type can be **SHA-256** or **Haval-256**.
 john --list=formats
 ```
 
-*(screenshot2)*
+![Image 2]([screenshots/imagen1.png](https://github.com/vthewolf/cybersecurity-labs/blob/main/john-the-ripper/1.Cracking-basic-hashes/captures/image2.png))
 
 ```bash
 john --format=Raw-SHA256 --wordlist=/usr/share/wordlists/rockyou.txt hash3.txt
 ```
 
-*(screenshot3)*
+![Image 3]([screenshots/imagen1.png](https://github.com/vthewolf/cybersecurity-labs/blob/main/john-the-ripper/1.Cracking-basic-hashes/captures/image3.png))
 
 4. Read the output that John the Ripper gives us to obtain the password
 
@@ -38,7 +39,7 @@ john --format=Raw-SHA256 --wordlist=/usr/share/wordlists/rockyou.txt hash3.txt
 cat /home/user/src/john/run/john.pot
 ```
 
-*(screenshot4)*
+![Image 4]([screenshots/imagen1.png](https://github.com/vthewolf/cybersecurity-labs/blob/main/john-the-ripper/1.Cracking-basic-hashes/captures/image4.png))
 
 **FLAG:** `microphone` (you can see the previous two as well because they are saved in a list with everything John cracks)
 
