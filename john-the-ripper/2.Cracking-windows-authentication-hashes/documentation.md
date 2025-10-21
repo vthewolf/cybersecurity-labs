@@ -24,3 +24,5 @@
 
 ## Key point for the lab
 - **You need context and privileges** to obtain Windows hashes in real-world scenarios. In the lab you will practice cracking once you have the hash and learn when **pass-the-hash** is more useful than cracking the password.
+
+![Capture1](./image.png)
