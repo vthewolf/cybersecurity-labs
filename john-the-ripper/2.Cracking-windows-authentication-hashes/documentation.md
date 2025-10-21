@@ -25,7 +25,7 @@
 ## Key point for the lab
 - **You need context and privileges** to obtain Windows hashes in real-world scenarios. In the lab you will practice cracking once you have the hash and learn when **pass-the-hash** is more useful than cracking the password.
 
-## Amswer
+## Answer
 - We know that the format hash is "nt" so we just have to write
 `john --format="nt" --wordlist=/usr/share/wordlists/rockyou.txt ntlm.txt`
 - After that, we make a `cat /home/user/src/john/run/john.pot` to get the cracked password.
