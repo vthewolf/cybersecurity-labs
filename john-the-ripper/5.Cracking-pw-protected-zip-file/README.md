@@ -1,7 +1,3 @@
-¡Por supuesto! Entiendo que quieres todo el contenido en un único bloque de código Markdown para pegarlo directamente en tu archivo. Aquí tienes la documentación completa en inglés y formato Markdown (.md).
-
-Markdown
-
 # Lab Documentation: Cracking Password-Protected ZIP Files
 
 This lab demonstrates the process of cracking a password-protected ZIP archive using the `zip2john` utility and the John The Ripper (JtR) password cracker. The goal was to retrieve the content of the `flag.txt` file inside `secure.zip`.
