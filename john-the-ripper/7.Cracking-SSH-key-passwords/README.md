@@ -52,4 +52,4 @@ user@ip-10-10-81-237:~/John-the-Ripper-The-Basics/Task11$
 The passphrase for the id_rsa private key is `mango`.
 
 ## 4. Evidence
-!(Capture)[./image.png]
+![Capture](./image.png)
