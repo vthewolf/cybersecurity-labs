@@ -55,3 +55,5 @@ unzip -P pass123 secure.zip
 cat flag.txt
 The file flag.txt was successfully extracted, completing the laboratory exercise.
 ```
+
+![Capture](./image.png)
