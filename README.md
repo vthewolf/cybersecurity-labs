@@ -8,7 +8,8 @@ This repository contains practical labs and exercises I have completed as part o
 - **Wireshark / TCPdump**: network traffic capture and analysis
 - **Nmap**: port scanning and enumeration
 - **John the ripper**: basic encryption/decryption exercises with John the ripper
-- **MonikerLink**: Leak user's credentials using CVE-2024-21413 to bypass Outlook's Protected View.
+- **Moniker Link**: Leak user's credentials using CVE-2024-21413 to bypass Outlook's Protected View.
+- **Metasploit**: <next>
 
 ### Future Labs
 
